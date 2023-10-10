@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "api-calendar": "github:MrTanguy/api-calendar#dev",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "scripts": {
+    "start": "npm install https://github.com/MrTanguy/api-calendar.git#dev && browserify ./public/script/script.js -o ./public/bundle.js && node server.js"
+  },
+  "name": "calendar",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrTanguy/client-calendar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrTanguy/calendar/issues"
+  },
+  "homepage": "https://github.com/MrTanguy/calendar#readme",
+  "description": ""
+}
